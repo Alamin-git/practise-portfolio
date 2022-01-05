@@ -26,6 +26,7 @@ body {
      font-size: 15px;
      font-weight: 300;
      margin-bottom: 50px;
+     color: #4d4949;
 }
 .banner-left a {
      text-decoration: none;
@@ -40,6 +41,7 @@ body {
      color: white;
      font-size: 17px;
      box-shadow: 0 0 20px rgb(87, 77, 77);
+     border-radius: 10px;
 }
 .banner-right {
      width: 40%;
@@ -66,18 +68,19 @@ body {
      letter-spacing: 3px;
 }
 .p-info-right h2 {
-     font-size: 50px;
+     font-size: 40px;
      margin: 20px 0;
 }
 .p-info-right p {
      font-size: 15px;
      font-weight: 300;
      margin-bottom: 50px;
+     color: #4d4949;
 }
 .p-info-right a {
      text-decoration: none;
      padding: 10px 30px;
-
+     border-radius: 10px;
      background-image: linear-gradient(
           to right,
           #314755 0%,
@@ -87,4 +90,82 @@ body {
      color: white;
      font-size: 17px;
      box-shadow: 0 0 20px rgb(87, 77, 77);
+}
+.service {
+}
+.service-head {
+     text-align: center;
+}
+.service-head h2 {
+     font-size: 35px;
+     margin: 70px 0 0px;
+     font-weight: 600;
+}
+.service-head p {
+     font-size: 15px;
+     font-weight: 300;
+     margin-bottom: 50px;
+     color: #4d4949;
+     width: 50%;
+     display: inline-block;
+}
+.service-item {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background: url(../img/item.png) no-repeat;
+     background-size: cover;
+     background-position: center;
+     padding-bottom: 50px;
+}
+.i-width {
+     max-width: 30%;
+     text-align: center;
+     margin: 14px;
+     padding: 35px 10px;
+     box-shadow: 0 0 16px rgb(87 77 77);
+     box-sizing: border-box;
+     border-radius: 10px;
+}
+.i-width p {
+     font-size: 15px;
+     font-weight: 300;
+     margin-bottom: 50px;
+     color: #4d4949;
+}
+.icon {
+     font-size: 38px;
+     color: rgb(75, 214, 207);
+     border: 2px solid yellowgreen;
+     padding: 10px;
+     border-radius: 17px;
+}
+.project {
+     display: flex;
+     background: radial-gradient(
+          circle,
+          rgba(32, 198, 174, 1) 15%,
+          rgba(45, 124, 142, 1) 66%
+     );
+     padding: 80px 100px;
+     justify-content: space-around;
+     text-align: center;
+}
+.footer {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-end;
+     background: url(../img/footer-bg.png) no-repeat;
+     padding: 273px 0 10px;
+}
+.f-left p {
+     font-size: 15px;
+     font-weight: 300;
+     color: #fff;
+}
+.f-right a i {
+     font-size: 30px;
+     margin-right: 23px;
+     color: #fff;
 }
