@@ -46,6 +46,9 @@ body {
 .banner-right {
      width: 40%;
 }
+.banner-right img {
+     padding-left: 70px;
+}
 .p-info {
      display: flex;
      padding-top: 40px;
