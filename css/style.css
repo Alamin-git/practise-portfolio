@@ -40,8 +40,51 @@ body {
      color: white;
      font-size: 17px;
      box-shadow: 0 0 20px rgb(87, 77, 77);
-     transition: 0.5s;
 }
 .banner-right {
      width: 40%;
+}
+.p-info {
+     display: flex;
+     padding-top: 40px;
+     justify-content: space-evenly;
+     background: url(../img/info.png) no-repeat;
+     background-position: right bottom;
+}
+.p-info-left {
+     width: 40%;
+}
+.p-info-left img {
+     width: 100%;
+}
+.p-info-right {
+     width: 40%;
+     padding-top: 80px;
+}
+.p-info-right h4 {
+     font-weight: 400;
+     letter-spacing: 3px;
+}
+.p-info-right h2 {
+     font-size: 50px;
+     margin: 20px 0;
+}
+.p-info-right p {
+     font-size: 15px;
+     font-weight: 300;
+     margin-bottom: 50px;
+}
+.p-info-right a {
+     text-decoration: none;
+     padding: 10px 30px;
+
+     background-image: linear-gradient(
+          to right,
+          #314755 0%,
+          #26a0da 51%,
+          #314755 100%
+     );
+     color: white;
+     font-size: 17px;
+     box-shadow: 0 0 20px rgb(87, 77, 77);
 }
