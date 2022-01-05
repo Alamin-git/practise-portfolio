@@ -1,0 +1,47 @@
+body {
+     font-family: "Poppins", sans-serif;
+     margin: 0;
+     padding: 0;
+}
+.bannre {
+     display: flex;
+     padding-top: 40px;
+     background: url(../img/banner-top.png) no-repeat;
+     justify-content: space-evenly;
+}
+.banner-left {
+     width: 40%;
+     padding-top: 100px;
+     padding-left: 60px;
+}
+.banner-left h4 {
+     font-weight: 400;
+     letter-spacing: 3px;
+}
+.banner-left h1 {
+     font-size: 60px;
+     margin: 20px 0;
+}
+.banner-left p {
+     font-size: 15px;
+     font-weight: 300;
+     margin-bottom: 50px;
+}
+.banner-left a {
+     text-decoration: none;
+     padding: 10px 30px;
+
+     background-image: linear-gradient(
+          to right,
+          #314755 0%,
+          #26a0da 51%,
+          #314755 100%
+     );
+     color: white;
+     font-size: 17px;
+     box-shadow: 0 0 20px rgb(87, 77, 77);
+     transition: 0.5s;
+}
+.banner-right {
+     width: 40%;
+}
